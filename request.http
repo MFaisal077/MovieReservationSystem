@@ -1,0 +1,19 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=IntelliJ IDEA
+
+###
+GET http://localhost:8080/all
+
+###
+
+POST http://localhost:8080/all
+Content-Type: application/json
+
+{
+  "name": "Inception",
+  "genre": "Sci-Fi",
+  "year": "2010",
+  "director": "Christopher Nolan",
+  "rating": "9/10"
+}

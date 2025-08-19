@@ -1,4 +1,4 @@
-package model;
+package dev.faisal.Movie.reservation.mainApp.model;
 
 
 import jakarta.persistence.Entity;
@@ -25,6 +25,7 @@ public class Movies {
         this.Genre = Genre;
         this.Year = Year;
         this.Director = Director;
+        this.Rating = Rating;
     }
 
 
